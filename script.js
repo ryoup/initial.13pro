@@ -38,7 +38,7 @@ function processImage(file, conversionTable) {
         const img = new Image();
         img.onload = function() {
             // 画像サイズチェック
-            if (img.width !== 1080 || img.height !== 2400) {
+            if (img.width !== 1170 || img.height !== 2532) {
                 document.getElementById("result").innerHTML = `<p style="color: red;">画像サイズが合っていません。</p>`;
                 return;
             }
